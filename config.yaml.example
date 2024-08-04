@@ -1,0 +1,12 @@
+BTC-PERPETUAL:
+  symbol: BTC-PERPETUAL
+  spreadbps: 50
+  stoppct: 5
+
+ETH-PERPETUAL:
+  symbol: ETH-PERPETUAL
+  spreadbps: 50
+  stoppct: 5
+
+
+
