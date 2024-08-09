@@ -23,3 +23,8 @@ enum OrderType {
   CANCEL = 2;
   CANCEL_ALL = 3;
 }
+
+enum Side {
+  BUY = 0;
+  SELL = 1;
+}
