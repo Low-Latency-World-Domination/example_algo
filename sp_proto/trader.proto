@@ -16,3 +16,14 @@ message Order {
   FedMsg.OrderType order_type = 7;
   FedMsg.Side side = 8;
 }
+
+
+
+
+message OrderResponse {
+  string status = 1;
+}
+
+service Trader {
+  rpc SubmitOrder (Order) returns (OrderResponse) {}
+}
