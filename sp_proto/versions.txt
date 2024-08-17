@@ -1,3 +1,10 @@
+Ports 
+
+The Portfolio manager service listens on port 50052.
+The Trader service listens on port 50053.
+
+
+
 v1.1.o - Aug 10, 2024
 Add the trader service to the trader.proto file.
 
